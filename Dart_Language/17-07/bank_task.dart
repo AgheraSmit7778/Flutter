@@ -2,18 +2,20 @@
 
 import 'dart:io';
 
-// this is parent class named Bankaccount
-class Bankaccount {
+// this is parent class named as Bankaccount
+
+class Bankaccount 
+{
   // account holder name , num , balance all variable asigned here
 
-  String accname;
+  String accname;    
   String accnum;
-  double accbal = 0.00;
-  static double totalbalance = 0.00;
-  double amount = 0.00;
+  double accbal = 0.00;    // account balance may be in big value so use double variable
+  static double to talbalance = 0.00;			// static keyword before variable is used to not allow change
+  double amount = 0.00;		// amount entere by user
 
   //this is constructer
-  Bankaccount(this.accname, this.accnum, this.accbal);
+  Bankaccount(this.accname, this.accnum, this.accbal); //3 named parameters
 
   void deposit() {
     print("Enter Amount to be deposit");
