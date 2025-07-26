@@ -15,6 +15,6 @@ void main() {
     int restyear = fullage - age;
     print("Hello $name Welcome,");
     print("Your Current Age is : $age years.");
-    print("You have $restyear years left to complete 100 years");
+    print("You have $restyear years left to Die at 100 years");
   }
 }
