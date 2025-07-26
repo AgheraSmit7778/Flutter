@@ -2,10 +2,10 @@ import 'dart:io';
 
 void main() {
   print("Please Enter First Value");
-  double val1 = double.parse(stdin.readLineSync()!);
+  double val1 = double.parse(stdin.readLineSync().toString());
 
   print("Please Enter Second Value");
-  double val2 = double.parse(stdin.readLineSync()!);
+  double val2 = double.parse(stdin.readLineSync().toString());
 
   print("Please Choose Option : ");
   print("1. Addition : ");

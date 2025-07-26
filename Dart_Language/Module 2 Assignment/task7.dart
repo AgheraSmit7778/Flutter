@@ -4,7 +4,7 @@ void main() {
   print("Enter a number: ");
   int num = int.parse(stdin.readLineSync().toString());
 
-  if (isPrime == num) {
+  if (isPrime(num)) {
     print("$num is a prime number.");
   } else {
     print("$num is not a prime number.");
